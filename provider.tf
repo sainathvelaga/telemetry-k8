@@ -6,7 +6,7 @@ terraform {
     }
   }
   backend "s3" {
-    bucket = "daws78s-remote-state"
+    bucket = "sainath-devops-practice"
     key    = "expense-dev-k8-ws"
     region = "us-east-1"
     dynamodb_table = "daws78s-locking"
